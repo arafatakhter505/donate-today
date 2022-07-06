@@ -105,11 +105,11 @@ h2{
 #news{
     text-align: center;
 }
-#news .news-area{
+.news-area{
     display: flex;
     margin: 30px 0;
 }
-#news .news-area .news-item{
+.news-item{
     width: 33%;
     text-align: left;
     padding: 20px;
@@ -118,7 +118,7 @@ h2{
     box-shadow: 0px 0px 15px grey;
     border-left: 5px solid tomato;
 }
-#news .news-area .news-item img{
+.news-item img{
     width: 100%;
 }
 #newsletter{
@@ -147,5 +147,6 @@ footer{
     padding: 5px;
 }
 footer h2{
+    font-size: 30px;
     color: rgb(245, 58, 25);
 }
