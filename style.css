@@ -51,6 +51,8 @@ h2{
     font-weight: 700;
     color: grey;
     padding: 30px;
+    background-color: rgba(128, 128, 128, 0.062);
+    margin: 0 5px;
 }
 #active-da{
     background-color: rgba(245, 29, 25, 0.158);
@@ -84,7 +86,7 @@ h2{
 .plan-area .plan-item{
     width: 33%;
     text-align: left;
-    padding: 40px 25px;
+    padding: 60px 25px;
     margin: 30px;
     border-radius: 5px;
 }
@@ -99,6 +101,25 @@ h2{
 }
 #item-3{
     background-color: rgba(255, 99, 71, 0.400);
+}
+#news{
+    text-align: center;
+}
+#news .news-area{
+    display: flex;
+    margin: 30px 0;
+}
+#news .news-area .news-item{
+    width: 33%;
+    text-align: left;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px grey;
+    border-left: 5px solid tomato;
+}
+#news .news-area .news-item img{
+    width: 100%;
 }
 #newsletter{
     text-align: center;
